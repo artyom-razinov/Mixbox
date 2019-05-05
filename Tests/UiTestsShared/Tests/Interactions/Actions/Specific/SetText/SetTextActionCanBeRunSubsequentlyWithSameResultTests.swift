@@ -3,7 +3,7 @@ import MixboxUiTestsFoundation
 // TODO: Test all options (function arguments)
 // TODO: Code generation
 final class SetTextActionCanBeRunSubsequentlyWithSameResultTests: BaseActionTestCase {
-    func test_setText_withPasteInputMethod_canBeRunSubsequentlyWithSameResult() {
+    func test_setText_withPasteInputMethod_canBeRunSubsequentlyWithSameResult_ISFLAKY() {
         checkTextActionCanBeRunSubsequentlyWithSameResult(
             inputMethod: .paste
         )

@@ -154,7 +154,12 @@ testArgsFile() {
                     deviceType: .destinationsJson.deviceType,
                     runtime: .destinationsJson.iOSVersion
                 },
-                numberOfRetries: 4,
+                environment: .environment
+            } |
+            {
+                testToRun: .testToRun,
+                testDestination: .testDestination,
+                numberOfRetries: (if (.testToRun|contains("ISFLAKY")) then 10 else 4 end),
                 environment: .environment
             }
         ]

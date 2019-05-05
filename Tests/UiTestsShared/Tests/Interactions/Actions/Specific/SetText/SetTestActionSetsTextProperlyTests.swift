@@ -10,35 +10,35 @@ final class SetTestActionSetsTextProperlyTests: BaseActionTestCase {
         )
     }
     
-    func test_setText_withPasteInputMethod_setsTextProperly_1() {
+    func test_setText_withPasteInputMethod_setsTextProperly_1_ISFLAKY() {
         checkTextActionSetsTextProperly(
             inputMethod: .paste,
             testDataId: 1
         )
     }
     
-    func test_setText_withPasteInputMethod_setsTextProperly_2() {
+    func test_setText_withPasteInputMethod_setsTextProperly_2_ISFLAKY() {
         checkTextActionSetsTextProperly(
             inputMethod: .paste,
             testDataId: 2
         )
     }
     
-    func test_setText_withPasteInputMethod_setsTextProperly_3() {
+    func test_setText_withPasteInputMethod_setsTextProperly_3_ISFLAKY() {
         checkTextActionSetsTextProperly(
             inputMethod: .paste,
             testDataId: 3
         )
     }
     
-    func test_setText_withPasteInputMethod_setsTextProperly_4() {
+    func test_setText_withPasteInputMethod_setsTextProperly_4_ISFLAKY() {
         checkTextActionSetsTextProperly(
             inputMethod: .paste,
             testDataId: 4
         )
     }
     
-    func test_setText_withPasteInputMethod_setsTextProperly_5() {
+    func test_setText_withPasteInputMethod_setsTextProperly_5_ISFLAKY() {
         checkTextActionSetsTextProperly(
             inputMethod: .paste,
             testDataId: 5

@@ -1,5 +1,5 @@
 final class BaseActionTestCaseTests: BaseActionTestCase {
-    func test_uiResetsProperly() {
+    func test_uiResetsProperly_ISFLAKY() {
         let text = "Some text"
         
         let actionSpecification = ActionSpecifications.setText(

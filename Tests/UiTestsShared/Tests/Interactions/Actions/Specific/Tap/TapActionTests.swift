@@ -19,7 +19,7 @@ import XCTest
 // It is possible to detect visible area of `a`, or that center of `a` is not visible.
 //
 final class TapActionTests: BaseActionTestCase {
-    func test_action_canBeRunSubsequentlyWithSameResult() {
+    func test_action_canBeRunSubsequentlyWithSameResult_ISFLAKY() {
         checkActionCanBeRunSubsequentlyWithSameResult(
             actionSpecification: actionSpecification,
             resetViewsForCurrentActionSpecification: true
