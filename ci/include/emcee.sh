@@ -159,7 +159,7 @@ testArgsFile() {
             {
                 testToRun: .testToRun,
                 testDestination: .testDestination,
-                numberOfRetries: (if (.testToRun|contains("ISFLAKY")) then 10 else 4 end),
+                numberOfRetries: (if (.testToRun|contains("ISFLAKY")) then 100 else 4 end),
                 environment: .environment
             }
         ]
